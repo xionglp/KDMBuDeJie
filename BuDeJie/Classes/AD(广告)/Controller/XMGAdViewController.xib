@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XMGAdViewController">
@@ -23,22 +27,22 @@
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xYI-0x-vKq" userLabel="广告占位视图">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wss-7C-iUS">
                     <rect key="frame" x="290" y="20" width="65" height="30"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.77000000000000002" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.77000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="65" id="JCJ-f1-1Vv"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <state key="normal" title="跳过 (3)"/>
+                    <state key="normal" title="跳过 (4)"/>
                     <connections>
                         <action selector="clickJump:" destination="-1" eventType="touchUpInside" id="BA1-hD-9aI"/>
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="1" green="0.35967798290000003" blue="0.053445902240000003" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="1" green="0.35967798290000003" blue="0.053445902240000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="Wss-7C-iUS" secondAttribute="trailing" constant="20" id="7OM-n3-ZpC"/>
                 <constraint firstItem="8Uf-hh-VdS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9lk-uy-0nD"/>
@@ -51,7 +55,6 @@
                 <constraint firstItem="xYI-0x-vKq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="k50-1V-hfZ"/>
                 <constraint firstItem="Wss-7C-iUS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="pVw-TF-KqK"/>
             </constraints>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
         </view>
     </objects>
 </document>

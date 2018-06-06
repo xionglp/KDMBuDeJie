@@ -10,6 +10,7 @@
 #import "AFNetworking.h"
 
 NSString * const budejie_api_open = @"http://api.budejie.com/api/api_open.php";
+NSString * const budejie_api_Ad = @"http://mobads.baidu.com/cpro/ui/mads.php";
 
 @implementation XMGNetworkTool
 

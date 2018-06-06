@@ -5,6 +5,7 @@
 //  Created by xiaomage on 16/3/11.
 //  Copyright © 2016年 小码哥. All rights reserved.
 //
+// init ->  initWithNibName 1.首先判断有没有指定nibName 2.判断下有没有跟类名同名xib
 
 #import "AppDelegate.h"
 #import "XMGAdViewController.h"
@@ -23,12 +24,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     // 2.设置窗口根控制器
-    self.window.rootViewController = [[XMGTabBarController alloc] init];
-//    XMGAdViewController *adVc = [[XMGAdViewController alloc] init];
-    // init ->  initWithNibName 1.首先判断有没有指定nibName 2.判断下有没有跟类名同名xib
-//    self.window.rootViewController = adVc;
+//    self.window.rootViewController = [[XMGTabBarController alloc] init];
+    XMGAdViewController *adVc = [[XMGAdViewController alloc] init];
+    self.window.rootViewController = adVc;
     
-    // 3.显示窗口 1.成为UIApplication主窗口 2.
+    // 3.显示窗口 1.成为UIApplication主窗口
     [self.window makeKeyAndVisible];
     
     return YES;

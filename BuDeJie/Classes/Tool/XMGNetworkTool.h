@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 extern NSString * const budejie_api_open;
+//查询启动app的广告
+extern NSString * const budejie_api_Ad;
 
 @interface XMGNetworkTool : NSObject
 
