@@ -20,15 +20,13 @@
 // 程序启动的时候就会调用
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    // 1.创建窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    // 2.设置窗口根控制器
-//    self.window.rootViewController = [[XMGTabBarController alloc] init];
-    XMGAdViewController *adVc = [[XMGAdViewController alloc] init];
-    self.window.rootViewController = adVc;
+    self.window.rootViewController = [[XMGTabBarController alloc] init];
     
-    // 3.显示窗口 1.成为UIApplication主窗口
+    //广告功能
+//    self.window.rootViewController = [[XMGAdViewController alloc] init];
+    
     [self.window makeKeyAndVisible];
     
     return YES;

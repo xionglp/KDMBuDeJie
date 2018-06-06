@@ -43,7 +43,6 @@
 // 自己去计算SDWebImage做的缓存
 + (void)getFileSize:(NSString *)directoryPath completion:(void(^)(NSInteger))completion
 {
-    
     // 获取文件管理者
     NSFileManager *mgr = [NSFileManager defaultManager];
     BOOL isDirectory;
@@ -94,9 +93,6 @@
                 completion(totalSize);
             }
         });
-        
-        
-
     });
     
     

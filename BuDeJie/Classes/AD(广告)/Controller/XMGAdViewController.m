@@ -118,7 +118,6 @@ NSInteger const countdownTimer = 4;
         imageView.userInteractionEnabled = YES;
         _adView = imageView;
     }
-    
     return _adView;
 }
 

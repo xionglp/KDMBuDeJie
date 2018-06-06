@@ -37,13 +37,11 @@ static NSString * const ID = @"cell";
     // 获取文件夹尺寸
     // 文件夹非常小,如果我的文件非常大
     [XMGFileTool getFileSize:CachePath completion:^(NSInteger totalSize) {
-        
         _totalSize = totalSize;
-        
         [self.tableView reloadData];
-        
         [SVProgressHUD dismiss];
     }];
+    
 }
 
 - (void)jump
@@ -60,12 +58,7 @@ static NSString * const ID = @"cell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    
-    // 计算缓存数据,计算整个应用程序缓存数据 => 沙盒(Cache) => 获取cache文件夹尺寸
-    
-    // 获取缓存尺寸字符串
     cell.textLabel.text = [self sizeStr];
-    
     return cell;
 }
 
@@ -75,9 +68,7 @@ static NSString * const ID = @"cell";
     // 清空缓存
     // 删除文件夹里面所有文件
     [XMGFileTool removeDirectoryPath:CachePath];
-    
     _totalSize = 0;
-    
     [self.tableView reloadData];
 }
 
