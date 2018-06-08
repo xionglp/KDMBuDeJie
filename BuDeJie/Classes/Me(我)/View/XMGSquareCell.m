@@ -18,17 +18,14 @@
 @implementation XMGSquareCell
 
 - (void)awakeFromNib {
-    // Initialization code
+    [super awakeFromNib];
 }
 
 - (void)setItem:(XMGSquareItem *)item
 {
     _item = item;
-    
     [_iconView sd_setImageWithURL:[NSURL URLWithString:item.icon]];
     _nameView.text = item.name;
-    
-    
 }
 
 @end

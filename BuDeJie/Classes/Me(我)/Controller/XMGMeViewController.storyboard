@@ -20,7 +20,7 @@
                         <sections>
                             <tableViewSection id="32L-8x-iay">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="dVi-qv-hxx" imageView="OQW-3P-sz2" style="IBUITableViewCellStyleDefault" id="Jyh-d5-eB7">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="dVi-qv-hxx" imageView="OQW-3P-sz2" style="IBUITableViewCellStyleDefault" id="Jyh-d5-eB7">
                                         <rect key="frame" x="0.0" y="35" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jyh-d5-eB7" id="vff-3r-Ymq">
@@ -45,7 +45,7 @@
                             </tableViewSection>
                             <tableViewSection id="0ZO-54-Nsx">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="zfi-fg-ULB" style="IBUITableViewCellStyleDefault" id="Ti8-uL-zi0">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="zfi-fg-ULB" style="IBUITableViewCellStyleDefault" id="Ti8-uL-zi0">
                                         <rect key="frame" x="0.0" y="115" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ti8-uL-zi0" id="bcO-Gn-1uB">

@@ -9,6 +9,7 @@
 #import "UIBarButtonItem+Item.h"
 
 @implementation UIBarButtonItem (Item)
+
 + (UIBarButtonItem *)itemWithimage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action
 {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -18,7 +19,6 @@
     [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     UIView *containView = [[UIView alloc] initWithFrame:btn.bounds];
     [containView addSubview:btn];
-    
     return [[UIBarButtonItem alloc] initWithCustomView:containView];
 }
 
@@ -31,10 +31,8 @@
     [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     UIView *containView = [[UIView alloc] initWithFrame:btn.bounds];
     [containView addSubview:btn];
-    
     return [[UIBarButtonItem alloc] initWithCustomView:containView];
 }
-
 
 + (UIBarButtonItem *)backItemWithimage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action title:(NSString *)title{
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -44,9 +42,9 @@
     [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [backButton setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
     [backButton sizeToFit];
-    backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);
+    //top, left, bottom, right;
+    backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
     [backButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-    
     return  [[UIBarButtonItem alloc] initWithCustomView:backButton];
 }
 

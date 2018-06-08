@@ -463,7 +463,6 @@
 			isa = PBXGroup;
 			children = (
 				700334F51C92B7DC00B04292 /* Controller */,
-				700334F61C92B7DC00B04292 /* Model */,
 				700334F71C92B7DC00B04292 /* View */,
 			);
 			path = "Main(主要)";
@@ -478,13 +477,6 @@
 				70CB98211C93C963003A01DD /* XMGNavigationViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		700334F61C92B7DC00B04292 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		700334F71C92B7DC00B04292 /* View */ = {
@@ -958,7 +950,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3324F85D82C2FFE434E216D3 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = BuDeJie/Classes/Other/BuDeJie.pch;
@@ -974,7 +965,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3E29CC9856F93951A11DB77 /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = BuDeJie/Classes/Other/BuDeJie.pch;

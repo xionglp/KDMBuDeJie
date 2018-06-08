@@ -21,15 +21,12 @@
     // 分析:为什么先设置占位文字颜色,就没有效果 => 占位文字label拿不到
     // 1.保存起来
     // 设置占位文字颜色
-    _textField.placeholderColor = [UIColor greenColor];
+    _textField.placeholderColor = [UIColor lightGrayColor];
     
     // 设置占位文字:每次设置占位文字的后,在拿到之前保存占位文字颜色,重新设置
 //    [_textField setXmg_Placeholder:@"123"];
     _textField.placeholder = @"123";
     
-    
-    
-    // Do any additional setup after loading the view.
     [self setupNavBar];
 }
 
