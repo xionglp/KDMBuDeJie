@@ -13,9 +13,15 @@
 + (UIImage *)imageOriginalWithName:(NSString *)imageName
 {
     UIImage *image = [UIImage imageNamed:imageName];
-    
     return [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-
 }
+
+//UI层业务
+//基础
+//网络
+//底层
+//不常用到的库， 例音频视频、动画、图表等
+//html，css，h5
+//前端框架，ReactNative,Vue,Angular
 
 @end

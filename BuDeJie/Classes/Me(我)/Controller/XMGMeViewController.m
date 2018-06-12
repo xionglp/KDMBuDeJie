@@ -14,9 +14,7 @@
 #import "XMGSquareCell.h"
 #import "XMGWebViewController.h"
 #import "XMGNetworkTool.h"
-/*
-    搭建基本结构 -> 设置底部条 -> 设置顶部条 -> 设置顶部条标题字体 -> 处理导航控制器业务逻辑(跳转)
- */
+
 static NSString * const ID = @"cell";
 static NSInteger const cols = 4;
 static CGFloat const margin = 1;
@@ -141,7 +139,7 @@ static CGFloat const margin = 1;
 {
     UIBarButtonItem *settingItem =  [UIBarButtonItem itemWithimage:[UIImage imageNamed:@"mine-setting-icon"] highImage:[UIImage imageNamed:@"mine-setting-icon-click"] target:self action:@selector(setting)];
     
-    UIBarButtonItem *nightItem =  [UIBarButtonItem itemWithimage:[UIImage imageNamed:@"mine-moon-icon"] selImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(night:)];
+    UIBarButtonItem *nightItem = [UIBarButtonItem itemWithimage:[UIImage imageNamed:@"mine-moon-icon"] selImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(night:)];
 
     self.navigationItem.title = @"我的";
     self.navigationItem.rightBarButtonItems = @[settingItem,nightItem];

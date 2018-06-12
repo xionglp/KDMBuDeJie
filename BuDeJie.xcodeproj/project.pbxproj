@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120AA73320CE4CF5007605CE /* XMGTopicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 120AA73220CE4CF5007605CE /* XMGTopicButton.m */; };
+		120AA73620CE5329007605CE /* XMGAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120AA73520CE5329007605CE /* XMGAllViewController.m */; };
+		120AA73920CE533E007605CE /* XMGVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120AA73820CE533E007605CE /* XMGVideoViewController.m */; };
+		120AA73F20CE5385007605CE /* XMGPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120AA73E20CE5385007605CE /* XMGPictureViewController.m */; };
+		120AA74220CE53AE007605CE /* XMGVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120AA74120CE53AE007605CE /* XMGVoiceViewController.m */; };
+		120AA74520CE53BB007605CE /* XMGWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120AA74420CE53BB007605CE /* XMGWordViewController.m */; };
+		120AA74920CE5AFF007605CE /* XMGBuDeJieConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 120AA74820CE5AFF007605CE /* XMGBuDeJieConst.m */; };
 		12DDF13320C787D1008FA02C /* XMGNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DDF13220C787D1008FA02C /* XMGNetworkTool.m */; };
 		700334B01C92758C00B04292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700334AE1C92758C00B04292 /* Main.storyboard */; };
 		700334B21C92758C00B04292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700334B11C92758C00B04292 /* Assets.xcassets */; };
@@ -73,6 +80,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120AA73120CE4CF5007605CE /* XMGTopicButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGTopicButton.h; sourceTree = "<group>"; };
+		120AA73220CE4CF5007605CE /* XMGTopicButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGTopicButton.m; sourceTree = "<group>"; };
+		120AA73420CE5329007605CE /* XMGAllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGAllViewController.h; sourceTree = "<group>"; };
+		120AA73520CE5329007605CE /* XMGAllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGAllViewController.m; sourceTree = "<group>"; };
+		120AA73720CE533E007605CE /* XMGVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGVideoViewController.h; sourceTree = "<group>"; };
+		120AA73820CE533E007605CE /* XMGVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGVideoViewController.m; sourceTree = "<group>"; };
+		120AA73D20CE5385007605CE /* XMGPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGPictureViewController.h; sourceTree = "<group>"; };
+		120AA73E20CE5385007605CE /* XMGPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGPictureViewController.m; sourceTree = "<group>"; };
+		120AA74020CE53AE007605CE /* XMGVoiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGVoiceViewController.h; sourceTree = "<group>"; };
+		120AA74120CE53AE007605CE /* XMGVoiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGVoiceViewController.m; sourceTree = "<group>"; };
+		120AA74320CE53BB007605CE /* XMGWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGWordViewController.h; sourceTree = "<group>"; };
+		120AA74420CE53BB007605CE /* XMGWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGWordViewController.m; sourceTree = "<group>"; };
+		120AA74720CE5AFF007605CE /* XMGBuDeJieConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGBuDeJieConst.h; sourceTree = "<group>"; };
+		120AA74820CE5AFF007605CE /* XMGBuDeJieConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGBuDeJieConst.m; sourceTree = "<group>"; };
 		12DDF13120C787D1008FA02C /* XMGNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNetworkTool.h; sourceTree = "<group>"; };
 		12DDF13220C787D1008FA02C /* XMGNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNetworkTool.m; sourceTree = "<group>"; };
 		3324F85D82C2FFE434E216D3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -267,6 +288,16 @@
 			children = (
 				700334E51C92A9BC00B04292 /* XMGEssenceViewController.h */,
 				700334E61C92A9BC00B04292 /* XMGEssenceViewController.m */,
+				120AA73420CE5329007605CE /* XMGAllViewController.h */,
+				120AA73520CE5329007605CE /* XMGAllViewController.m */,
+				120AA73720CE533E007605CE /* XMGVideoViewController.h */,
+				120AA73820CE533E007605CE /* XMGVideoViewController.m */,
+				120AA73D20CE5385007605CE /* XMGPictureViewController.h */,
+				120AA73E20CE5385007605CE /* XMGPictureViewController.m */,
+				120AA74020CE53AE007605CE /* XMGVoiceViewController.h */,
+				120AA74120CE53AE007605CE /* XMGVoiceViewController.m */,
+				120AA74320CE53BB007605CE /* XMGWordViewController.h */,
+				120AA74420CE53BB007605CE /* XMGWordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,6 +312,8 @@
 		700334CE1C92A96D00B04292 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				120AA73120CE4CF5007605CE /* XMGTopicButton.h */,
+				120AA73220CE4CF5007605CE /* XMGTopicButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -422,6 +455,8 @@
 				700334DD1C92A96D00B04292 /* AppDelegate.m */,
 				700334DE1C92A96D00B04292 /* main.m */,
 				70CB981C1C93B976003A01DD /* BuDeJie.pch */,
+				120AA74720CE5AFF007605CE /* XMGBuDeJieConst.h */,
+				120AA74820CE5AFF007605CE /* XMGBuDeJieConst.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -795,10 +830,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7019DB671C97BCE500E614F4 /* UIImage+Antialias.m in Sources */,
+				120AA74920CE5AFF007605CE /* XMGBuDeJieConst.m in Sources */,
 				70A7421B1C93A99400BFA6FA /* XMGTabBar.m in Sources */,
 				70D569211C98EB1000B36123 /* XMGLoginField.m in Sources */,
 				70432A751C97F8C8008E4679 /* XMGLoginRegisterView.m in Sources */,
 				704601881C99536100243B72 /* XMGFileTool.m in Sources */,
+				120AA73F20CE5385007605CE /* XMGPictureViewController.m in Sources */,
 				70CB981F1C93C341003A01DD /* UIBarButtonItem+Item.m in Sources */,
 				70D569241C98F16C00B36123 /* UITextField+Placeholder.m in Sources */,
 				7097A18A1C9905E900231962 /* XMGSquareItem.m in Sources */,
@@ -808,13 +845,18 @@
 				7019DB6D1C97F3B900E614F4 /* XMGLoginRegisterViewController.m in Sources */,
 				700334E71C92A9BC00B04292 /* XMGEssenceViewController.m in Sources */,
 				700334F31C92AA0B00B04292 /* XMGPublishViewController.m in Sources */,
+				120AA74520CE53BB007605CE /* XMGWordViewController.m in Sources */,
 				700334FE1C92BEE000B04292 /* UIImage+Image.m in Sources */,
 				700BD5611C9806F700B4E90B /* XMGFastLoginView.m in Sources */,
 				7019DB591C979B3100E614F4 /* XMGADItem.m in Sources */,
 				7097A1861C98FE3900231962 /* XMGSquareCell.m in Sources */,
+				120AA73620CE5329007605CE /* XMGAllViewController.m in Sources */,
+				120AA74220CE53AE007605CE /* XMGVoiceViewController.m in Sources */,
+				120AA73320CE4CF5007605CE /* XMGTopicButton.m in Sources */,
 				70CB98291C93CB02003A01DD /* XMGSettingViewController.m in Sources */,
 				7019DB5F1C97AB9200E614F4 /* XMGSubTagItem.m in Sources */,
 				700334F01C92A9FC00B04292 /* XMGNewViewController.m in Sources */,
+				120AA73920CE533E007605CE /* XMGVideoViewController.m in Sources */,
 				700BD5661C98099200B4E90B /* XMGFastButton.m in Sources */,
 				70AB495A1C9935CF0044E502 /* XMGWebViewController.m in Sources */,
 				70CB98301C940299003A01DD /* XMGAdViewController.m in Sources */,
@@ -956,7 +998,7 @@
 				INFOPLIST_FILE = BuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.520it.BuDeJie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdom.BuDeJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -971,7 +1013,7 @@
 				INFOPLIST_FILE = BuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.520it.BuDeJie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdom.BuDeJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
